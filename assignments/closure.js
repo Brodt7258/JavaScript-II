@@ -1,6 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+const closureTest = () => {
+  const testMsg = 'test';
+  debugger;
+  function inner () {
+    debugger;
+    console.log(testMsg);
+  }
+  inner();
+}
 
+closureTest();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
