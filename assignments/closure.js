@@ -2,9 +2,9 @@
 // Write a simple closure of your own creation.  Keep it simple!
 const closureTest = () => {
   const testMsg = 'test';
-  debugger;
+  //debugger;
   function inner () {
-    debugger;
+    //debugger;
     console.log(testMsg);
   }
   inner();
